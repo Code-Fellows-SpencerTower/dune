@@ -10,9 +10,18 @@ header li {
 }
 body {
     background-color: #272727;
+    font-family: orthodoxhibertarian
 }
 
 section {
     background-color: grey;
 }
 
+a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+p {
+    color:;
+}
