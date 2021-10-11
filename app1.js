@@ -70,5 +70,32 @@
 function showPlanetImages(){
     let url1 = "/images/Arrakeen_Palace.webp";
     let url2 = "/images/arrakis_desert.jpg";
-    document.getElementById("div_test").innerHTML += '<img id="arrakeen_palace_img" src="' + url1 + '">' + '<img id="arrakis_desert_img" src="' + url2 + '">';
+    document.getElementById("arrakis_explore_div").innerHTML += '<img id="arrakeen_palace_img" class="arrakis_explore_images" src="' + url1 + '">' + '<img id="arrakis_desert_img" class="arrakis_explore_images" src="' + url2 + '">';
 }
+
+// // count number of clicks, remove images on second click
+// function removeImages(){
+//     let div = document.getElementById('arrakis_explore_div');
+//     console.log(div);
+//     let images = document.getElementsByClassName('');
+//     console.log(images);
+//     console.log(typeof(images));
+//     images.remove();
+// }
+
+function removeElementsByClass(className){
+    const elements = document.getElementsByClassName(className);
+    console.log(elements);
+    while(elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+        console.log(elements);
+    }
+}
+
+// function countClicks(num){
+//     console.log(num);
+//     if (num > 0){
+//         document.getElementById("arrakis_button").onclick= removeImages();
+//     }
+//     console.log(2);
+// }

@@ -42,4 +42,15 @@ a {
     display: inline;
 }
 
+#arrakis_explore_div {
+    padding: 1em;
+    margin: 1em;
+}
+
+.arrakis_explore_images {
+    border-style: solid;
+    max-width: 20em;
+    max-height: 20em;
+}
+
 
