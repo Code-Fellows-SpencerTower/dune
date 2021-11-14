@@ -99,3 +99,8 @@ function removeElementsByClass(className){
 //     }
 //     console.log(2);
 // }
+
+let imageDoc = './images';
+for (let i = 0; i < imageDoc.length; i++){
+    console.log(imageDoc);
+}
